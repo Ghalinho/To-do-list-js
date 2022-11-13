@@ -1,0 +1,90 @@
+body{
+    background-color: gray;
+  
+}
+
+.task-table{
+    background-color: rgb(239, 239, 239);
+    width: 70%;
+    font-family: 'Tajawal', sans-serif;
+    direction: rtl;
+    margin-top: 120px;
+    padding-left: 4px ;
+    
+}
+
+.task:hover{
+    box-shadow: 0px 4px 15px;
+}
+
+.Header:hover{
+    background-color: blueviolet;
+}
+
+.centerDiv{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.Header{
+    width: 100%; 
+    text-align: center;
+    background: rgb(203, 177, 7);
+    height: 45px;
+    padding: 2px;
+    
+}
+
+h1{
+    display: inline;
+ 
+}
+
+button{
+    float: right;
+    font-size: 20px;
+    border: none;
+    box-shadow: 0px 4px 5px rgba(100, 100, 100);
+
+}
+.circular{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 0px;
+    padding: 0px;
+}
+
+.task{
+    display: flex;
+    background-color: white;
+    padding: 4px;
+    border-bottom: solid black 1px;
+    transition: box-shadow 0.2s;
+    margin-right: 1px;
+}
+
+.done{
+    background-color: aqua;
+}
+
+.taskInfo{
+    width: 70%;
+    
+}
+
+.btnAction{
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 180px;
+  
+}
+
+
+
+
+
+ 
